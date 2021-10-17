@@ -1,0 +1,96 @@
+markdown: kramdown
+
+# URL of the Site
+url: 'https://stavtaket.no'
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl:
+
+# Title of the Site
+title: Stavtaket Hytteforening
+# Description of the Site
+description: Nettsiden for Stavtaket Vel og Hytteforening, Skeikampen
+# URL of Image of the Site
+site-image: /assets/images/skei.jpg
+# Keywords of the Site
+site-keywords: Stavtaket, Hytteforening, Skeikampen, Gausdal, Norge, Norway, Hytte, Cabin, Friluft
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: /assets/images/skei.jpg
+
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: gareth.western+stavtaket@gmail.com
+facebook_username: groups/360465608188450
+twitter_username:
+instagram_username: stavtaket
+linkedin_username:
+github_username: 
+youtube_channel_id:
+reddit_username:
+behance_username:
+dribbble_username:
+spotify_username:
+
+# Google Analytics
+google-analytics:
+
+# Disqus
+disqus-shortname:
+
+# Name of the Author
+author-name: Admin
+# URL for the Image of the Author
+author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+# 60 Words About the Author
+author-about: Stavtaket Vel og Hytteforening was formed by the original founders of the settlement, in the early half of the 21st century. The goal of the forening is to maintain peace, order, and harmony between the settlers, the Skeikampen natives, and nature.
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/gdubya/stavtaket.github.io/
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
