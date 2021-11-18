@@ -5,6 +5,8 @@ url: 'https://stavtaket.no'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl:
 
+github: [metadata]
+
 # Title of the Site
 title: Stavtaket Hytteforening
 # Description of the Site
@@ -14,7 +16,7 @@ site-image: /assets/images/skei.jpg
 # Keywords of the Site
 site-keywords: Stavtaket, Hytteforening, Skeikampen, Gausdal, Norge, Norway, Hytte, Cabin, Friluft
 # URL for the Image of custom Favicon
-favicon-url: 
+favicon-url:
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: /assets/images/skei.jpg
@@ -26,7 +28,7 @@ facebook_username: groups/360465608188450
 twitter_username:
 instagram_username: stavtaket
 linkedin_username:
-github_username: 
+github_username:
 youtube_channel_id:
 reddit_username:
 behance_username:
