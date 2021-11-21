@@ -5,6 +5,6 @@ layout: page
 
 # Frequently Asked Questions
 
-1. Hvorfor?
+1. Vi har mistet vannet etter strømmbrudd. Hvordan få vi det tilbake?
 
-    Hvorfor ikke?
+    Vannet blir borte når strømmen går. Dra ut den runde bryteren som sitter på boksen ved stoppekrana. Drei den mot åpen. Når strømmen er tilbake så trykker du den tilbake.
