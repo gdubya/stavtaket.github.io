@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: tips
 title: Tur tips
 ---
 
